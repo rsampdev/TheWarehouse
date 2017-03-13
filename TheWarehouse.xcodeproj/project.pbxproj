@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		33D8C3BE1E74B1CE00515FB8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D8C3BD1E74B1CE00515FB8 /* main.swift */; };
+		33D8C3C51E74B25900515FB8 /* Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D8C3C41E74B25900515FB8 /* Console.swift */; };
+		33D8C3C71E74B3A000515FB8 /* Warehouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D8C3C61E74B3A000515FB8 /* Warehouse.swift */; };
+		33D8C3C91E74B40700515FB8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D8C3C81E74B40700515FB8 /* Item.swift */; };
+		33D8C3CD1E74C28500515FB8 /* TheWarehouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D8C3CC1E74C28500515FB8 /* TheWarehouse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		33D8C3BA1E74B1CE00515FB8 /* TheWarehouse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TheWarehouse; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D8C3BD1E74B1CE00515FB8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		33D8C3C41E74B25900515FB8 /* Console.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Console.swift; sourceTree = "<group>"; };
+		33D8C3C61E74B3A000515FB8 /* Warehouse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Warehouse.swift; sourceTree = "<group>"; };
+		33D8C3C81E74B40700515FB8 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		33D8C3CC1E74C28500515FB8 /* TheWarehouse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheWarehouse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				33D8C3BD1E74B1CE00515FB8 /* main.swift */,
+				33D8C3C41E74B25900515FB8 /* Console.swift */,
+				33D8C3C61E74B3A000515FB8 /* Warehouse.swift */,
+				33D8C3C81E74B40700515FB8 /* Item.swift */,
+				33D8C3CC1E74C28500515FB8 /* TheWarehouse.swift */,
 			);
 			path = TheWarehouse;
 			sourceTree = "<group>";
@@ -121,7 +133,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D8C3C91E74B40700515FB8 /* Item.swift in Sources */,
 				33D8C3BE1E74B1CE00515FB8 /* main.swift in Sources */,
+				33D8C3C71E74B3A000515FB8 /* Warehouse.swift in Sources */,
+				33D8C3C51E74B25900515FB8 /* Console.swift in Sources */,
+				33D8C3CD1E74C28500515FB8 /* TheWarehouse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

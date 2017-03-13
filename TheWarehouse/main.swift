@@ -6,7 +6,6 @@
 //  Copyright © 2017 com.rsampdev. All rights reserved.
 //
 
-import Foundation
+let progrem = TheWarehouse()
 
-print("Hello, World!")
-
+progrem.run()
