@@ -6,6 +6,6 @@
 //  Copyright © 2017 com.rsampdev. All rights reserved.
 //
 
-let progrem = TheWarehouse()
+let program = TheWarehouse()
 
-progrem.run()
+program.run()
